@@ -9,8 +9,10 @@ class Header extends Component {
    
     return (
       <div className="header">
-      
+           <h1>Welcome!</h1>
+           <p>I like to create websites and web based application which works well everyware. <br/>
 
+Keep scrolling while I get a coffee for you...</p>
       </div>
     );
   }
