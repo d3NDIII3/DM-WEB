@@ -1,0 +1,14 @@
+.repos {
+  background-image: linear-gradient(
+    to right top,
+    #033d62,
+    #014d7c,
+    #005e97,
+    #006fb2,
+    #0480cf
+  );
+  height: 1000px;
+  width: 100%;
+  position: absolute;
+  top: 1350px;
+}
