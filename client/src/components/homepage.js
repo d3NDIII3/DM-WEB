@@ -6,19 +6,17 @@ import "../";
 const slides = [
   {
     id: 0,
-    url:
-      "photo-1544511916-0148ccdeb877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1901&q=80i",
+    url: "picture2.0eb30a00.jpg",
   },
   {
     id: 1,
-    url:
-      "photo-1544572571-ab94fd872ce4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1534&q=80",
+    url: "picture.52a54fe9.jpg",
   },
   {
     id: 2,
-    url: "reserve/bnW1TuTV2YGcoh1HyWNQ_IMG_0207.JPG?ixlib=rb-1.2.1&w=1534&q=80",
+    url: "picture1.a7d30b6e.jpg",
   },
-  { id: 3, url: "photo-1540206395-68808572332f?ixlib=rb-1.2.1&w=1181&q=80" },
+  { id: 3, url: "picture3.e1b51272.jpg" },
 ];
 export default function Welcome() {
   const [index, set] = useState(0);
@@ -38,7 +36,7 @@ export default function Welcome() {
       className="header"
       style={{
         ...props,
-        backgroundImage: `url(https://images.unsplash.com/${item.url}&auto=format&fit=crop)`,
+        backgroundImage: `url(/static/media/${item.url})`,
       }}
     >
       <h1>Welcome!</h1>
