@@ -1,11 +1,16 @@
+import { render } from "react-dom";
 import React, { useState, useEffect } from "react";
 import { useTransition, animated, config } from "react-spring";
 import "./homepage.css";
-import "../";
+import "../picture.jpg";
+import "../picture1.jpg";
+import "../picture2.jpg";
+import "../picture3.jpg";
 
 const slides = [
   {
     id: 0,
+
     url: "picture2.0eb30a00.jpg",
   },
   {
@@ -18,6 +23,7 @@ const slides = [
   },
   { id: 3, url: "picture3.e1b51272.jpg" },
 ];
+
 export default function Welcome() {
   const [index, set] = useState(0);
   const transitions = useTransition(slides[index], (item) => item.id, {
@@ -27,7 +33,7 @@ export default function Welcome() {
     config: config.molasses,
   });
   useEffect(
-    () => void setInterval(() => set((state) => (state + 1) % 4), 8000),
+    () => void setInterval(() => set((state) => (state + 1) % 4), 10000),
     []
   );
   return transitions.map(({ item, props, key }) => (

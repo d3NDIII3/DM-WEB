@@ -7,8 +7,30 @@
     #006fb2,
     #0480cf
   );
-  height: 1000px;
   width: 100%;
-  position: absolute;
-  top: 1350px;
+  box-sizing: border-box;
+  padding: 20px 4%;
+  overflow: hidden;
+}
+
+#h2 {
+  width: 100%;
+
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  font-size: 150%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#giticon {
+  font-size: 50px;
+  margin: 5px;
 }

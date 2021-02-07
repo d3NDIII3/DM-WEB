@@ -156,12 +156,11 @@ export default function PersistentDrawerLeft() {
             </ListItem>
           </List>
         </Drawer>
-
-        <Welcome />
-
-        <Whoami />
-        <Repos />
       </div>
+      <Welcome />
+
+      <Whoami />
+      <Repos />
     </Router>
   );
 }
