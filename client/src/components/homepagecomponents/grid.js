@@ -38,7 +38,7 @@ export default function NestedGrid() {
             <Button
               variant="contained"
               color="primary"
-              href="https://github.com/denizmemduev/Tic-Tac-Toe"
+              href={props.link}
               target="_blank"
             >
               {props.btntext}
@@ -55,6 +55,7 @@ export default function NestedGrid() {
         <Grid container item xs={12} spacing={3}>
           <FormRow
             header={"XOXO"}
+            link={"https://github.com/denizmemduev/Tic-Tac-Toe"}
             text={
               "XOXO  is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner. It is a solved game with a forced draw assuming best play from both players. "
             }
@@ -62,33 +63,37 @@ export default function NestedGrid() {
           />
 
           <FormRow
-            header={"XOXO"}
+            header={"TO-DO APP"}
+            link={"https://github.com/denizmemduev/TodoApp"}
             text={
-              "XOXO  is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner. It is a solved game with a forced draw assuming best play from both players. "
+              "A list of the tasks that you have to do, or things that you want to do. "
             }
             btntext={"See Repository"}
           />
 
           <FormRow
-            header={"XOXO"}
+            header={"FOOD BASKET"}
+            link={"https://github.com/denizmemduev/FOOD-BASKET"}
             text={
-              "XOXO  is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner. It is a solved game with a forced draw assuming best play from both players. "
+              " Food basket is a web based application which serves to makeing a group food order. " 
             }
             btntext={"See Repository"}
           />
 
           <FormRow
-            header={"XOXO"}
+            header={"STOCK MANAGER"}
+            link={"https://github.com/denizmemduev/StockManager"}
             text={
-              "XOXO  is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner. It is a solved game with a forced draw assuming best play from both players. "
+              "StockManager is a simple desktop application for easy stock managment. "
             }
             btntext={"See Repository"}
           />
 
           <FormRow
-            header={"XOXO"}
+            header={"INTERSHIP PROGRAM"}
+            link={"https://github.com/denizmemduev/Internship-program-project"}
             text={
-              "XOXO  is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner. It is a solved game with a forced draw assuming best play from both players. "
+              ""
             }
             btntext={"See Repository"}
           />
