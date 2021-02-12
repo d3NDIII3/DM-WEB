@@ -7,6 +7,9 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 class Repos extends Component {
   state = {};
   render() {
+    Aos.init({
+      duration: 2000,
+    });
     return (
       <div className="repos">
         <div data-aos={"fade-down"} className="head">

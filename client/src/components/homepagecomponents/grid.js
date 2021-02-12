@@ -17,7 +17,8 @@ const useStyles = makeStyles((theme) => ({
     padding: 20,
     marginBottom: 30,
     marginLeft: 20,
-    height: 300,
+    height: 250,
+    fontSize: 15,
   },
 }));
 
@@ -32,12 +33,12 @@ export default function NestedGrid() {
       <React.Fragment>
         <Grid item sm={12} xs={12} md={6} lg={4}>
           <Paper data-aos={"fade-up"} className={classes.paper}>
-            <h1>{props.header}</h1>
+            <h2>{props.header}</h2>
             <p>{props.text}</p>
 
             <Button
               variant="contained"
-              color="primary"
+              color="default"
               href={props.link}
               target="_blank"
             >
@@ -54,16 +55,16 @@ export default function NestedGrid() {
       <Grid container spacing={1}>
         <Grid container item xs={12} spacing={3}>
           <FormRow
-            header={"XOXO"}
+            header={"XOXO - Created with JQuery"}
             link={"https://github.com/denizmemduev/Tic-Tac-Toe"}
             text={
-              "XOXO  is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner. It is a solved game with a forced draw assuming best play from both players. "
+              "XOXO  is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid.  "
             }
             btntext={"See Repository"}
           />
 
           <FormRow
-            header={"TO-DO APP"}
+            header={"TO-DO APP - Created with Angular JS"}
             link={"https://github.com/denizmemduev/TodoApp"}
             text={
               "A list of the tasks that you have to do, or things that you want to do. "
@@ -72,16 +73,16 @@ export default function NestedGrid() {
           />
 
           <FormRow
-            header={"FOOD BASKET"}
+            header={"FOOD BASKET - Created with React JS and Node JS"}
             link={"https://github.com/denizmemduev/FOOD-BASKET"}
             text={
-              " Food basket is a web based application which serves to makeing a group food order. " 
+              " Food basket is a web based application which serves to makeing a group food order. "
             }
             btntext={"See Repository"}
           />
 
           <FormRow
-            header={"STOCK MANAGER"}
+            header={"STOCK MANAGER - Created with JAVA and JAVA Swing controls"}
             link={"https://github.com/denizmemduev/StockManager"}
             text={
               "StockManager is a simple desktop application for easy stock managment. "
@@ -92,16 +93,14 @@ export default function NestedGrid() {
           <FormRow
             header={"INTERSHIP PROGRAM"}
             link={"https://github.com/denizmemduev/Internship-program-project"}
-            text={
-              ""
-            }
+            text={""}
             btntext={"See Repository"}
           />
 
           <FormRow
             header={"XOXO"}
             text={
-              "XOXO  is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner. It is a solved game with a forced draw assuming best play from both players. "
+              "XOXO  is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. "
             }
             btntext={"See Repository"}
           />

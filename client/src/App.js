@@ -17,7 +17,7 @@ import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import FolderSpecialRoundedIcon from "@material-ui/icons/FolderSpecialRounded";
 import DashboardRoundedIcon from "@material-ui/icons/DashboardRounded";
-
+import FolderList from "./components/homepagecomponents/footer";
 import InfoIcon from "@material-ui/icons/Info";
 import PermContactCalendarIcon from "@material-ui/icons/PermContactCalendar";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
@@ -161,6 +161,7 @@ export default function PersistentDrawerLeft() {
 
       <Whoami />
       <Repos />
+      <FolderList />
     </Router>
   );
 }

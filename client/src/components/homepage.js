@@ -38,6 +38,8 @@ export default function Welcome() {
   );
   return transitions.map(({ item, props, key }) => (
     <animated.div
+      data-aos="flip-up"
+      data-aos-duration="400"
       key={key}
       className="header"
       style={{

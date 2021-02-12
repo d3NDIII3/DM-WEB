@@ -1,12 +1,5 @@
 .repos {
-  background-image: linear-gradient(
-    to right top,
-    #033d62,
-    #014d7c,
-    #005e97,
-    #006fb2,
-    #0480cf
-  );
+  background-color: black;
   width: 100%;
   box-sizing: border-box;
   padding: 20px 4%;
@@ -28,6 +21,7 @@
   font-size: 150%;
   box-sizing: border-box;
   padding: 20px;
+  margin-bottom: 30px;
 }
 
 #giticon {
