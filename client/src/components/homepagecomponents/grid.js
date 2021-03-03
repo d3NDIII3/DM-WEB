@@ -5,6 +5,8 @@ import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import LinkIcon from "@material-ui/icons/Link";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
@@ -42,6 +44,7 @@ export default function NestedGrid() {
               href={props.link}
               target="_blank"
             >
+              <LinkIcon style={{ margin: 5 }}> </LinkIcon>
               {props.btntext}
             </Button>
           </Paper>
@@ -64,8 +67,8 @@ export default function NestedGrid() {
           />
 
           <FormRow
-            header={"TO-DO APP - Created with Angular JS"}
-            link={"https://github.com/denizmemduev/TodoApp"}
+            header={"TO-DO APP - Created with Angular TypeScript"}
+            link={"https://github.com/denizmemduev/Todo-app"}
             text={
               "A list of the tasks that you have to do, or things that you want to do. "
             }
@@ -98,9 +101,10 @@ export default function NestedGrid() {
           />
 
           <FormRow
-            header={"XOXO"}
+            header={"RLX"}
+            link={"https://github.com/denizmemduev/RLX"}
             text={
-              "XOXO  is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. "
+              "RLX is application for relaxing with nature sounds created with ReactJS "
             }
             btntext={"See Repository"}
           />

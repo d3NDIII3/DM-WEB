@@ -11,7 +11,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
 import PhoneIcon from "@material-ui/icons/Phone";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
-import YouTubeIcon from "@material-ui/icons/YouTube";
+import { Link } from "react-router-dom";
 const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: "rgba(0, 0, 0, 0)",
@@ -52,29 +52,42 @@ export default function FolderList() {
             </h2>
             <div className="links">
               <List>
-                <ListItem className={classes.ListItem} data-aos={"fade-right"}>
-                  <AlternateEmailIcon className={classes.icon} />
-                  <ListItemText
-                    primary="deniz.memduev@hotmail.com"
-                    className={classes.text}
-                  />
-                </ListItem>
-
-                <ListItem className={classes.ListItem} data-aos={"fade-right"}>
-                  <PhoneIcon className={classes.icon} />
-                  <ListItemText
-                    primary="+359899350531"
-                    className={classes.text}
-                  />
-                </ListItem>
-
-                <ListItem className={classes.ListItem} data-aos={"fade-right"}>
-                  <LocationOnIcon className={classes.icon} />
-                  <ListItemText
-                    primary="Varna / Bulgaria"
-                    className={classes.text}
-                  />
-                </ListItem>
+                <a href="mailto: deniz.memduev@hotmail.com">
+                  <ListItem
+                    className={classes.ListItem}
+                    data-aos={"fade-right"}
+                  >
+                    <AlternateEmailIcon className={classes.icon} />
+                    <ListItemText
+                      primary="deniz.memduev@hotmail.com"
+                      className={classes.text}
+                    />
+                  </ListItem>
+                </a>
+                <a href="tel: 0899350531">
+                  <ListItem
+                    className={classes.ListItem}
+                    data-aos={"fade-right"}
+                  >
+                    <PhoneIcon className={classes.icon} />
+                    <ListItemText
+                      primary="+359899350531"
+                      className={classes.text}
+                    />
+                  </ListItem>
+                </a>
+                <a href="https://goo.gl/maps/c2GiunFmCCioS64k9">
+                  <ListItem
+                    className={classes.ListItem}
+                    data-aos={"fade-right"}
+                  >
+                    <LocationOnIcon className={classes.icon} />
+                    <ListItemText
+                      primary="Varna / Bulgaria"
+                      className={classes.text}
+                    />
+                  </ListItem>
+                </a>
               </List>
             </div>
           </div>
@@ -85,16 +98,25 @@ export default function FolderList() {
               Links to social networks:
             </h2>
             <List>
-              <ListItem className={classes.ListItem} data-aos={"fade-in"}>
-                <FacebookIcon className={classes.icon} />
-                <ListItemText primary="Facebook" className={classes.text} />
-              </ListItem>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/deniz.memdueff/"
+              >
+                <ListItem className={classes.ListItem} data-aos={"fade-in"}>
+                  <FacebookIcon className={classes.icon} />
+                  <ListItemText primary="Facebook" className={classes.text} />
+                </ListItem>
+              </a>
 
-              <ListItem className={classes.ListItem} data-aos={"fade-in"}>
-                <InstagramIcon className={classes.icon} />
-                <ListItemText primary="Instagram" className={classes.text} />
-              </ListItem>
-
+              <a
+                target="_blank"
+                href="https://www.instagram.com/deniz.memdueff/"
+              >
+                <ListItem className={classes.ListItem} data-aos={"fade-in"}>
+                  <InstagramIcon className={classes.icon} />
+                  <ListItemText primary="Instagram" className={classes.text} />
+                </ListItem>
+              </a>
               <ListItem className={classes.ListItem} data-aos={"fade-in"}>
                 <TwitterIcon className={classes.icon} />
                 <ListItemText primary="Twitter" className={classes.text} />

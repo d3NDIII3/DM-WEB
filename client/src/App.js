@@ -24,6 +24,7 @@ import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import Whoami from "./components/homepagecomponents/whoami";
 import Welcome from "./components/homepage.js";
 import Repos from "./components/homepagecomponents/github";
+import Webpages from "./components/homepagecomponents/webpages/webpages";
 
 const drawerWidth = 240;
 
@@ -160,6 +161,7 @@ export default function PersistentDrawerLeft() {
       <Welcome />
 
       <Whoami />
+      <Webpages />
       <Repos />
       <FolderList />
     </Router>

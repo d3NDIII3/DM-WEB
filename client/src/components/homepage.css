@@ -4,6 +4,8 @@
   background-image: url("../picture3.jpg");
   background-size: cover;
   text-shadow: 0px 4px 11px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: inset 0px 0px 50px 28px #000000;
+  box-shadow: inset 0px 0px 50px 28px #000000;
   position: absolute;
   box-sizing: border-box;
   padding: 10px 7%;
@@ -35,8 +37,6 @@
   width: 100%;
   background-color: black;
   margin: 0px;
-  background-image: url("https://images.unsplash.com/photo-1532708653462-5cb23a5f9f2f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80");
-  background-size: cover;
 }
 
 .sect hr {
@@ -69,9 +69,7 @@ h3 {
   margin: 15px;
 }
 #one {
-  border-right: 1px solid rgba(255, 255, 255, 0.11);
 }
-
 #two {
 }
 
@@ -104,4 +102,9 @@ h3 {
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
