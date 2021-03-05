@@ -76,7 +76,7 @@ export default function NestedGrid() {
           />
 
           <FormRow
-            header={"FOOD BASKET - Created with React JS and Node JS"}
+            header={"FOOD BASKET - Created with React JS, Node JS and Firebase"}
             link={"https://github.com/denizmemduev/FOOD-BASKET"}
             text={
               " Food basket is a web based application which serves to makeing a group food order. "
