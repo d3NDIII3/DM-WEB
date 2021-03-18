@@ -38,7 +38,7 @@ export default function Webpages() {
   return (
     <div className={"root"}>
       <div>
-        <h1 data-aos={"flip-left"} className={"text2"}>
+        <h1 data-aos={"fade-in"} className={"text2"}>
           {" "}
           <PublicIcon
             style={{ fontSize: 60, textAlign: "center" }}
@@ -60,7 +60,7 @@ export default function Webpages() {
 
           <FormRow
             header={"To-do List"}
-            link={"https://rlx.netlify.com"}
+            link={"https://dm-todo.netlify.app/"}
             text={
               "A list of the tasks that you have to do, or things that you want to do. Created with: Angular, SASS and Firebase "
             }
@@ -68,10 +68,19 @@ export default function Webpages() {
           />
 
           <FormRow
-            header={"RLX"}
-            link={"https://rlx.netlify.com"}
+            header={"XOXO"}
+            link={"https://dm-xoxo.netlify.com"}
             text={
-              "RLX is application for relaxing with nature sounds created with  React JS and Firebase  "
+              "XOXO is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid.  "
+            }
+            btntext={"Website"}
+          />
+
+          <FormRow
+            header={"Subnet Calculator for IPV4"}
+            link={"https://ipv4-calculator.netlify.app/"}
+            text={
+              "The IP Subnet Calculator performs subnet calculations for the given network address and prefix"
             }
             btntext={"Website"}
           />

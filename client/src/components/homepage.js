@@ -49,8 +49,8 @@ export default function Welcome() {
     >
       <h1>Welcome!</h1>
       <p className="text">
-        I like to create websites and web based application which works well
-        everyware. <br /> Keep scrolling while I get a coffee for you...
+        I create websites and web based application which works well everywhere.{" "}
+        <br /> Keep scrolling while I get a coffee for you...
       </p>
     </animated.div>
   ));

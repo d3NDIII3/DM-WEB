@@ -4,28 +4,29 @@
   justify-content: space-around;
   background-image: linear-gradient(
     to left bottom,
-    #fbc605,
-    #f6b901,
-    #f0ad00,
-    #eaa000,
-    #e39400
+    #c8af0e,
+    #d2a500,
+    #db9a00,
+    #e48f04,
+    #eb8312
   );
-  padding: 3% 3%;
+  padding: 0.2% 0.2%;
 }
 .paper {
   text-align: center;
   background-color: rgb(26, 26, 26);
   color: white;
-  padding: 20px;
+  padding: 30px;
   margin-bottom: 30px;
   margin-left: 20px;
-  height: 250px;
+  -webkit-box-shadow: 12px 10px 15px 4px rgba(0, 0, 0, 0.86);
+  box-shadow: 12px 10px 15px 4px rgba(0, 0, 0, 0.86);
   font-size: 15px;
   border-radius: 6px;
 }
 
 hr {
-  height: 3px;
+  height: 2px;
   width: 97.5%;
   background-color: rgb(27, 27, 27);
   border: 0px;

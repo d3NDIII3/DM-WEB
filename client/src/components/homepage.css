@@ -4,8 +4,8 @@
   background-image: url("../picture3.jpg");
   background-size: cover;
   text-shadow: 0px 4px 11px rgba(0, 0, 0, 1);
-
   position: absolute;
+  top: 0;
   box-sizing: border-box;
   padding: 10px 7%;
   display: flex;
@@ -48,7 +48,7 @@
 .ftr {
   width: 100%;
   box-sizing: border-box;
-  padding: 0px 0px 3.5% 3.5%;
+  padding: 0px 0px 0.5% 0.5%;
 }
 
 .fr {
@@ -59,7 +59,7 @@
   flex-wrap: wrap;
   float: left;
   height: 350px;
-  padding: 20px;
+  padding: 1px;
   margin: 10px;
 }
 
